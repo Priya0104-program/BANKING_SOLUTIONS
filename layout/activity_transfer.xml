@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/kk"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".transfer">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="366dp"
+        android:layout_height="756dp"
+        android:layout_marginTop="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_centerInParent="true">
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="100dp"
+                android:id="@+id/tfer"
+                android:textSize="45dp"
+                android:layout_marginLeft="50dp"
+                android:text="TRANSFER"
+                android:background="@color/mint_cream"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="40dp"
+                android:text="--------------------"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:id="@+id/tto"
+                android:text="TRANSFER TO BANK ACCOUNT-- "
+                android:textColor="@color/black"
+                android:textSize="35dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:id="@+id/taccn"
+                android:text="ENTER ACCOUNT NUMBER --"
+                android:textColor="@color/dark_blue"
+                android:textSize="30dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:id="@+id/hel"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom" >
+                <Button
+                    android:id="@+id/k0"
+                    android:background="@color/orange"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:textSize="30dp"
+                    android:textAlignment="center"
+                    android:text="0" />
+                <Button
+                    android:id="@+id/k1"
+                    android:background="@color/orange"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:textSize="30dp"
+                    android:textAlignment="center"
+                    android:text="1" />
+                <Button
+                    android:id="@+id/k2"
+                    android:background="@color/orange"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:textSize="30dp"
+                    android:textAlignment="center"
+                    android:text="2" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom" >
+                <Button
+                    android:id="@+id/k3"
+                    android:background="@color/orange"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:textSize="30dp"
+                    android:textAlignment="center"
+                    android:text="3" />
+
+                <Button
+                    android:id="@+id/k4"
+                    android:background="@color/orange"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:textSize="30dp"
+                    android:textAlignment="center"
+                    android:text="4" />
+                <Button
+                    android:id="@+id/k5"
+                    android:background="@color/orange"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:textSize="30dp"
+                    android:textAlignment="center"
+                    android:text="5" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom" >
+                <Button
+                    android:id="@+id/k6"
+                    android:background="@color/orange"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:textSize="30dp"
+                    android:textAlignment="center"
+                    android:text="6" />
+                <Button
+                    android:id="@+id/k7"
+                    android:background="@color/orange"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:textSize="30dp"
+                    android:textAlignment="center"
+                    android:text="7" />
+                <Button
+                    android:id="@+id/k8"
+                    android:background="@color/orange"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:textAlignment="center"
+                    android:textSize="30dp"
+                    android:text="8" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/k9"
+                android:background="@color/orange"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginLeft="130dp"
+                android:textSize="30dp"
+                android:text="9" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textSize="30dp"
+                android:id="@+id/am"
+                android:text="ENTER AMOUNT "
+                android:textColor="@color/dark_blue"
+                android:textStyle="bold"/>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:id="@+id/helpe"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom" >
+                <Button
+                    android:id="@+id/f0"
+                    android:background="@color/orange"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:textSize="30dp"
+                    android:textAlignment="center"
+                    android:text="0" />
+                <Button
+                    android:id="@+id/f1"
+                    android:background="@color/orange"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:textSize="30dp"
+                    android:textAlignment="center"
+                    android:text="1" />
+                <Button
+                    android:id="@+id/f2"
+                    android:background="@color/orange"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:textSize="30dp"
+                    android:textAlignment="center"
+                    android:text="2" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom" >
+                <Button
+                    android:id="@+id/f3"
+                    android:background="@color/orange"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:textSize="30dp"
+                    android:textAlignment="center"
+                    android:text="3" />
+
+                <Button
+                    android:id="@+id/f4"
+                    android:background="@color/orange"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:textSize="30dp"
+                    android:textAlignment="center"
+                    android:text="4" />
+                <Button
+                    android:id="@+id/f5"
+                    android:background="@color/orange"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:textSize="30dp"
+                    android:textAlignment="center"
+                    android:text="5" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom" >
+                <Button
+                    android:id="@+id/f6"
+                    android:background="@color/orange"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:textSize="30dp"
+                    android:textAlignment="center"
+                    android:text="6" />
+                <Button
+                    android:id="@+id/f7"
+                    android:background="@color/orange"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:textSize="30dp"
+                    android:textAlignment="center"
+                    android:text="7" />
+                <Button
+                    android:id="@+id/f8"
+                    android:background="@color/orange"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:textAlignment="center"
+                    android:textSize="30dp"
+                    android:text="8" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/f9"
+                android:background="@color/orange"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginLeft="130dp"
+                android:textSize="30dp"
+                android:text="9" />
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"
+                android:id="@+id/tran1"
+                android:background="@color/yellow"
+                android:text="TRANSFER "
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="35dp" />
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"
+                android:id="@+id/didp"
+                android:background="@color/yellow"
+                android:text="DIRECT DEPOSIT "
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="35dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

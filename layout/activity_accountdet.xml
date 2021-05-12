@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/det"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".accountdet">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="366dp"
+        android:layout_height="756dp"
+        android:layout_marginTop="30dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_centerInParent="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/titlea"
+            android:textSize="45dp"
+            android:layout_marginLeft="40dp"
+            android:text="WELCOME"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/naam"
+            android:textSize="45dp"
+            android:layout_marginLeft="40dp"
+            android:textAlignment="center"
+            android:textColor="@color/background_color"
+            android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/accn"
+        android:textSize="30dp"
+        android:layout_marginTop="40dp"
+        android:text="ACCOUNT HOLDER NAME - "
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/accname"
+            android:textSize="25dp"
+            android:textColor="@color/blue"
+            android:textStyle="bold"/>
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/accno"
+        android:textSize="30dp"
+        android:text="ACCOUNT NUMBER - "
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/accnumber"
+            android:textSize="25dp"
+            android:textColor="@color/blue"
+            android:textStyle="bold"/>
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/accty"
+        android:textSize="30dp"
+        android:text="ACCOUNT TYPE - "
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/acctype"
+            android:text="PERSONAL"
+            android:textSize="25dp"
+            android:textColor="@color/blue"
+            android:textStyle="bold"/>
+
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/acccoun"
+        android:textSize="30dp"
+        android:text="BANK COUNTRY - "
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/country"
+            android:text="INDIA"
+            android:textSize="25dp"
+            android:textColor="@color/blue"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="YOUR BALANCE IS - "
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ybal"
+            android:textSize="25dp"
+            android:textColor="@color/blue"
+            android:textStyle="bold"/>
+
+
+    <Button
+        android:layout_width="190dp"
+        android:layout_height="150dp"
+        android:id="@+id/du"
+        android:layout_marginTop="60dp"
+        android:background="@color/green"
+        android:textAlignment="center"
+        android:layout_marginLeft="100dp"
+        android:textSize="40dp"
+        android:text="READ DETAILS"/>
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

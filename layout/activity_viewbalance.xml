@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/back"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".viewbalance">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="366dp"
+        android:layout_height="756dp"
+        android:layout_marginTop="30dp">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:id="@+id/he"
+                android:text="VIEW BALANCE "
+                android:layout_marginLeft="30dp"
+                android:textColor="@color/black"
+                android:textSize="45dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:id="@+id/hed"
+                android:text="YOUR BALANCE IS: "
+                android:layout_marginLeft="30dp"
+                android:textColor="@color/background_color"
+                android:textSize="35dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/kmod"
+                android:layout_marginLeft="30dp"
+                android:textColor="@color/dark_blue"
+                android:textSize="30dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/kkm"
+                android:layout_marginLeft="30dp"
+                android:textColor="@color/dark_blue"
+                android:textSize="30dp"
+                android:textStyle="bold"/>
+
+            <ImageButton
+                android:id="@+id/llm"
+                android:layout_width="164dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="200dp"
+                android:layout_height="108dp"
+                android:layout_gravity="center"
+                android:src="@color/blue" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
